@@ -16,6 +16,7 @@ namespace gabeutilityx
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            GRID.gfn_web_client.lightstepTracerPlatform.Initialize();
             Application.Run(new Login());
         }
     }
